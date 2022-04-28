@@ -1,0 +1,83 @@
+body {
+    background-image: url(assets/canvas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+div.container-fluid {
+    background-image: url(assets/navbar.jpg);
+}
+
+footer {
+    font-family: 'Alegreya Sans', sans-serif;
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px;
+    color: white;
+    width: 100%;
+    font-size: large;
+}
+
+#login-container {
+    font-family: 'Alegreya Sans', sans-serif;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#login-form {
+    padding: 15px;
+    width: 750px;
+    background-color: rgba(124, 124, 124, 0.7);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#emp-login {
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    cursor: pointer;
+}
+
+#login-form input {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#emp-login:hover {
+    background-color: #d64933;
+    transition: 0.33s;
+}
+
+#fm-login:hover {
+    background-color: #d64933;
+    transition: 0.33s;
+}
+
+#login-header {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #d64933;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#fm-login {
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 25%;
+    min-width: 210px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    font-size: large;
+}
